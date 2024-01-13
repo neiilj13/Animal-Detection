@@ -27,7 +27,7 @@ st.title('Moth Classification')
 st.markdown(bg_img, unsafe_allow_html=True)
 @st.cache_resource #helps in preventing excessing memory, only loads model once
 def load_model_4():
-	mod=YOLO(r"C:\Users\neilj\Desktop\IB DAIS NEILJ\COLLEGE\MACHINE LEARNING\home\moth_classify_medium_20_320_34.pt")
+	mod=YOLO("moth_classify_medium_20_320_34.pt")
 	return mod
 img = st.file_uploader('Select the image', type=['jpg','png','jpeg'])
 if img is not None:
