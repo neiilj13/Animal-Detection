@@ -41,6 +41,7 @@ if img is not None:
 	label=res[0].probs.top5
 	conf=res[0].probs.top5conf
 	conf=conf.tolist()
+	st.write("hi")
 
 	col1,col2 = st.columns(2)
 	st.write("hi")
