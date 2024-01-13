@@ -27,7 +27,7 @@ st.title('Mammal Classification')
 st.markdown(bg_img, unsafe_allow_html=True)
 @st.cache_resource #helps in preventing excessing memory, only loads model once
 def load_model_3():
-	mod=YOLO(r"C:\Users\neilj\Desktop\IB DAIS NEILJ\COLLEGE\MACHINE LEARNING\home\mammal_classify_medium_20_288_32.pt")
+	mod=YOLO("mammal_classify_medium_20_288_32.pt")
 	return mod
 img = st.file_uploader('Select the image', type=['jpg','png','jpeg'])
 if img is not None:
