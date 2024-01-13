@@ -3,7 +3,7 @@ from streamlit_extras.switch_page_button import switch_page
 bg_img= """
 <style>
 [data-testid="stAppViewContainer"] {
-background-image: url("https://images.unsplash.com/photo-1509023464722-18d996393ca8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+background-image: url("https://images.unsplash.com/photo-1541855951501-fc42a85d86d3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 background-size: cover;
 }
 
